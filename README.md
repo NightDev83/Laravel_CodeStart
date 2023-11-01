@@ -1,66 +1,49 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Laravel_CodeStart
+CodeStart - Laravel Project for Beginners
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+Bienvenue sur CodeStart, une plateforme éducative visant à enseigner les bases de la programmation avec un focus sur HTML et CSS. Ce projet est construit avec Laravel v10.10, MaterializeCSS, et utilise une base de données SQLite. Assurez-vous de bien comprendre les fonctionnalités et la structure de ce projet en suivant cette documentation.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Fonctionnalités Principales
+Authentification et Inscription
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Le système d'authentification permet aux utilisateurs de s'inscrire et de se connecter.
+Après inscription, les utilisateurs peuvent accéder aux cours et au quizz.
+Cours Disponibles
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Deux cours sont actuellement disponibles : HTML et CSS.
+Pour accéder aux cours, assurez-vous d'être connecté.
+Quizz en HTML
 
-## Learning Laravel
+Un quizz interactif en HTML est proposé aux utilisateurs.
+Il n'est réalisable qu'une seule fois par utilisateur.
+Suivi du Score
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Les utilisateurs peuvent consulter leur score au quizz dans leur espace personnel.
+Modification des Informations Personnelles
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Les utilisateurs ont la possibilité de modifier leurs informations personnelles telles que le nom, le prénom, le mot de passe, et l'email.
+Architecture MVC
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Le projet suit le modèle MVC (Modèle-Vue-Contrôleur) pour une organisation claire et une maintenance facilitée.
+Utilisation du Projet
+Installation
 
-## Laravel Sponsors
+Clonez le projet depuis [lien du projet sur GitHub].
+Installez les dépendances en utilisant composer install.
+Configurez le fichier .env avec les détails de votre base de données et autres paramètres nécessaires.
+Effectuez les migrations avec php artisan migrate.
+Lancez le serveur avec php artisan serve.
+Personnalisation
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Pour personnaliser le projet, modifiez les vues, les styles, et les fonctionnalités selon vos besoins.
+Licence
 
-### Premium Partners
+Ce projet est sans licence, ce qui signifie qu'il peut être utilisé et modifié librement. Cependant, assurez-vous de respecter la licence du style open source que vous avez emprunté.
+Contact
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Pour toute question ou assistance, n'hésitez pas à me contacter via GitHub.
+Remarque Importante
+Assurez-vous de respecter toutes les licences open source associées à ce projet et à tout style emprunté.
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Merci d'avoir choisi CodeStart pour votre apprentissage de la programmation! 🚀
